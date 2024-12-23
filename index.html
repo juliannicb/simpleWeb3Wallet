@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web3 Wallet</title>
+    <script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        input, button { margin: 10px; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Simple Web3 Wallet</h1>
+    <button id="connectWallet">Connect Wallet</button>
+    <div id="walletInfo" style="display: none;">
+        <p><strong>Wallet Address:</strong> <span id="address"></span></p>
+        <p><strong>Balance:</strong> <span id="balance"></span> ETH</p>
+        <input type="text" id="recipient" placeholder="Recipient Address" size="40">
+        <input type="number" id="amount" placeholder="Amount in ETH">
+        <button id="sendEther">Send Ether</button>
+        <p id="status"></p>
+    </div>
+    <script src="wallet.js"></script>
+</body>
+</html>
