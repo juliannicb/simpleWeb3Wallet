@@ -1,0 +1,12 @@
+How to Use
+Install Dependencies:
+
+Ensure you have Node.js installed to run the script above for creating the files.
+Run the script in a terminal to generate the index.html and wallet.js files.
+Serve the Files:
+
+Place the generated files in a web server directory (e.g., use tools like Live Server or http-server).
+Test the Wallet:
+
+Open the index.html file in your browser.
+Connect to MetaMask and interact with the wallet.
